@@ -1,6 +1,7 @@
 import './App.css'
 import Body from './components/body'
 import Contact from './components/contact'
+import Footer from './components/footer'
 
 import Header from './components/header'
 import Herosection1 from './components/herosection1'
@@ -36,7 +37,7 @@ function App() {
 <div id="contact">
   <Contact />
 </div>
-
+<Footer />
 
 
     </>
