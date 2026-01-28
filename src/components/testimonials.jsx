@@ -1,0 +1,87 @@
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "./ui/carousel";
+
+function Testimonials() {
+  return (
+    <div
+      style={{ backgroundColor: "rgb(45,45,45)" }}
+      className="min-h-screen flex items-center justify-center px-4"
+    >
+      <Carousel className="w-full max-w-xl md:max-w-2xl">
+        <CarouselContent>
+          {[ 
+            {
+              name: "John Doe",
+              role: "Back End Developer",
+              img: "https://media.istockphoto.com/id/944138400/photo/indian-young-man-in-london-expressing-positive-emotion.jpg?s=612x612&w=0&k=20&c=rvkgZh4qs3PAWU6I10ZdbADY8kiV6F2rezjy6RAWgAM=",
+            },
+            {
+              name: "Alastair Cook",
+              role: "Front End Developer",
+              img: "https://thumbs.dreamstime.com/b/portrait-handsome-young-man-standing-field-33895778.jpg",
+            },
+            {
+              name: "Mr George",
+              role: "Back End Developer",
+              img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUu4ScrMJ_AaD35H0pykC2v24oqgFx2n_yag&s",
+            },
+            {
+              name: "Ian Bell",
+              role: "Custom Developer",
+              img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZFfE0h5v2_ysBtYuYuGllJMlW72XcXkt21qCj4weuRQQHTneKi63famk&s",
+            },
+          ].map((item, index) => (
+            <CarouselItem key={index}>
+              <div className="flex flex-col items-center text-center gap-4 px-2 sm:px-6">
+                
+               
+                <img
+                  src="/src/assets/logo.png"
+                  alt=""
+                  className="w-32 sm:w-40"
+                />
+
+               
+                <p className="text-white text-sm sm:text-base leading-relaxed max-w-md">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                  atque minus placeat hic voluptate reiciendis beatae modi
+                  saepe quam incidunt.
+                </p>
+
+               
+                <div className="border-4 border-amber-300 rounded-full p-1">
+                  <img
+                    src={item.img}
+                    alt=""
+                    className="w-20 h-20 sm:w-28 sm:h-28 rounded-full object-cover"
+                  />
+                </div>
+
+              
+                <h1 className="font-medium text-white">
+                  {item.name}
+                </h1>
+
+               
+                <p className="text-yellow-400 text-sm">
+                  {item.role}
+                </p>
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+
+        {/* Arrows */}
+        <CarouselPrevious className="hidden sm:flex" />
+        <CarouselNext className="hidden sm:flex" />
+      </Carousel>
+    </div>
+  );
+}
+
+export default Testimonials;
