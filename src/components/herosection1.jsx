@@ -9,9 +9,9 @@ function Herosection1() {
       <div className="w-full max-w-6xl flex items-center gap-16">
 
 
-        <div className='h'>
+        <div >
           <img
-            src="https://media.istockphoto.com/id/944138400/photo/indian-young-man-in-london-expressing-positive-emotion.jpg?s=612x612&w=0&k=20&c=rvkgZh4qs3PAWU6I10ZdbADY8kiV6F2rezjy6RAWgAM="
+            src="/src/assets/haider.jpg"
             alt=""
             className="hidden lg:block h-60 w-60 object-cover border-4 border-white"
           />
@@ -24,14 +24,11 @@ function Herosection1() {
           </h2>
 
           <p className="text-sm sm:text-base leading-relaxed max-w-xl">
-            Lorem ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem ipsum has been the industry's standard dummy text
-            ever since the 1500s.
+            Hi, I'm Haider Ali, a passionate Front-End Developer dedicated to building fast, interactive, and user-centric web applications. My core expertise lies in React.js and the modern JavaScript ecosystem. I love turning complex problems into simple, beautiful, and scalable code. Whether it's optimizing performance or crafting responsive layouts, I focus on delivering high-quality digital experiences
           </p>
 
           <p className="text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">
-            Lorem ipsum is simply dummy text of the printing and typesetting
-            industry.
+            When I'm not coding, you can find me playing cricket, traveling to new places, or reading to expand my horizons. I believe that a balanced life fuels creativity and helps me bring fresh perspectives to my technical work."
           </p>
 
           {/* BUTTONS */}

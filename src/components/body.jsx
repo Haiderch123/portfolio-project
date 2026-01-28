@@ -25,10 +25,9 @@ function Body() {
 
   {/* Description */}
   <p className="text-sm sm:text-base text-white leading-relaxed max-w-xl">
-    Lorem ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem ipsum has been the industry's standard dummy text ever since the
-    1500s, when an unknown printer took a galley of type and scrambled it to
-    make a type specimen book.
+  Developing and maintaining web applications using React and various JavaScript libraries, focusing on performance, scalability, and responsive design.
+Worked on multiple production level projects, building dynamic and user friendly interfaces using React.js and
+modern frontend technologies
   </p>
 
   {/* Button */}

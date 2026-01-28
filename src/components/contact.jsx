@@ -52,22 +52,22 @@ function Contact() {
         {/* Location */}
         <div>
           <p className="text-yellow-400 font-medium">Location</p>
-          <p>251 Main Street, Suite 124</p>
-          <p>London, UK</p>
+          <p>Maaqbool Colony near Masjid Touheed </p>
+          <p>Bahawalpur </p>
         </div>
 
         {/* Phone */}
         <div>
           <p className="text-yellow-400 font-medium">Phone Number</p>
-          <p>+1234567890</p>
-          <p>035272846284</p>
+          <p>03081570070</p>
+          <p>03013643245</p>
         </div>
 
         {/* Email */}
         <div>
           <p className="text-yellow-400 font-medium">Email</p>
-          <p>johnpeter142@gmail.com</p>
-          <p>alastairmore182@gmail.com</p>
+          <p>hyderch143@gmail.com</p>
+          <p>haiderchaudhry987@gmail.com</p>
         </div>
       </div>
     </div>

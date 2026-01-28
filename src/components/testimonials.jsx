@@ -16,9 +16,9 @@ function Testimonials() {
         <CarouselContent>
           {[ 
             {
-              name: "John Doe",
-              role: "Back End Developer",
-              img: "https://media.istockphoto.com/id/944138400/photo/indian-young-man-in-london-expressing-positive-emotion.jpg?s=612x612&w=0&k=20&c=rvkgZh4qs3PAWU6I10ZdbADY8kiV6F2rezjy6RAWgAM=",
+              name: "Haider Ali",
+              role: "Front End Developer",
+              img: "/src/assets/haider.jpg",
             },
             {
               name: "Alastair Cook",
@@ -47,10 +47,8 @@ function Testimonials() {
                 />
 
                
-                <p className="text-white text-sm sm:text-base leading-relaxed max-w-md">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                  atque minus placeat hic voluptate reiciendis beatae modi
-                  saepe quam incidunt.
+                <p className="text-white text-sm font-bold sm:text-base leading-relaxed max-w-md">
+                  Bachelors in Computer Science, The Islamia University of Bahawalpur
                 </p>
 
                
