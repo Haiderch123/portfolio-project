@@ -47,6 +47,7 @@ function Herosection1() {
   >
     Download 
   </button>
+  <a href="#contact" className='scroll-smooth'>
             <button className="
       text-sm sm:text-base
       text-white
@@ -60,6 +61,7 @@ function Herosection1() {
   >
               Contact Me
             </button>
+            </a>
           </div>
         </div>
 
