@@ -18,7 +18,7 @@ function Testimonials() {
             {
               name: "Haider Ali",
               role: "Front End Developer",
-              img: "/src/assets/haider.jpg",
+              img: "/src/assets/Mr Haider Ali.png",
             },
             {
               name: "Alastair Cook",
@@ -55,7 +55,7 @@ function Testimonials() {
                   <img
                     src={item.img}
                     alt=""
-                    className="w-20 h-20 sm:w-28 sm:h-28 rounded-full object-cover"
+                    className="w-20 h-20 sm:w-28 sm:h-28 rounded-full "
                   />
                 </div>
 
